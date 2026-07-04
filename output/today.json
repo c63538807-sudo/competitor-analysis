@@ -1,0 +1,90 @@
+{
+  "date": "2026-07-05",
+  "questions": [
+    {
+      "questionIndex": 1,
+      "question": "2025年诺贝尔物理学奖授予了谁？",
+      "questionType": "信息问答",
+      "targetFunction": "知识问答",
+      "aic": {
+        "answer": "2025年诺贝尔物理学奖授予了John Hopfield和Geoffrey Hinton，以表彰他们在人工神经网络和机器学习方面的基础性发现与发明。他们的工作为现代人工智能的发展奠定了重要基础。",
+        "screenshot": "data:image/png;base64,FAKE_AIC_Q1",
+        "evaluation": ""
+      },
+      "competitors": [
+        {
+          "name": "Ask AI",
+          "answer": "2025年诺贝尔物理学奖授予了John J. Hopfield和Geoffrey E. Hinton，表彰他们在人工神经网络方面的基础性发现。Hopfield发明了联想记忆网络，Hinton则发明了玻尔兹曼机。",
+          "screenshot": "data:image/png;base64,FAKE_ASK_Q1"
+        },
+        {
+          "name": "ChatSmith",
+          "answer": "2025年物理学诺贝尔奖授予了John Hopfield和Geoffrey Hinton，他们在人工神经网络方面做出了重要贡献。",
+          "screenshot": "data:image/png;base64,FAKE_CS_Q1"
+        }
+      ],
+      "competitorEvaluation": "",
+      "overallJudgment": "",
+      "notes": ""
+    },
+    {
+      "questionIndex": 2,
+      "question": "帮我写一份英文简历，我是软件工程师，有5年经验",
+      "questionType": "创作生成",
+      "targetFunction": "AI写作",
+      "aic": {
+        "answer": "Here is a professional English resume for a software engineer with 5 years of experience...",
+        "screenshot": "data:image/png;base64,FAKE_AIC_Q2",
+        "evaluation": ""
+      },
+      "competitors": [
+        {
+          "name": "Ask AI",
+          "answer": "Below is a tailored resume template highlighting your 5 years of software engineering experience...",
+          "screenshot": "data:image/png;base64,FAKE_ASK_Q2"
+        },
+        {
+          "name": "ChatSmith",
+          "answer": "Here's a resume draft for you. Contact info goes at top, then summary, skills, experience...",
+          "screenshot": "data:image/png;base64,FAKE_CS_Q2"
+        }
+      ],
+      "competitorEvaluation": "",
+      "overallJudgment": "",
+      "notes": ""
+    },
+    {
+      "questionIndex": 3,
+      "question": "翻译这段话成日语：人工智能正在改变我们的生活方式",
+      "questionType": "工具类",
+      "targetFunction": "AI翻译",
+      "aic": {
+        "answer": "人工知能は私たちの生活様式を変えつつあります。\n（じんこうちのうはわたしたちのせいかつようしきをかえつつあります。）",
+        "screenshot": "data:image/png;base64,FAKE_AIC_Q3",
+        "evaluation": ""
+      },
+      "competitors": [
+        {
+          "name": "Ask AI",
+          "answer": "人工知能（AI）は私たちの生活スタイルを変革しています。",
+          "screenshot": "data:image/png;base64,FAKE_ASK_Q3"
+        }
+      ],
+      "competitorEvaluation": "",
+      "overallJudgment": "",
+      "notes": ""
+    }
+  ],
+  "competitorMeta": [
+    {
+      "name": "Ask AI",
+      "freeCount": 3,
+      "model": "GPT-5"
+    },
+    {
+      "name": "ChatSmith",
+      "freeCount": 10,
+      "model": "Claude 5"
+    }
+  ]
+}

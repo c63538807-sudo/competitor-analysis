@@ -1,0 +1,848 @@
+{
+  "session": {
+    "date": "2026-07-05",
+    "questionCount": 3,
+    "competitorCount": 2,
+    "competitorNames": [
+      "Ask AI",
+      "ChatSmith"
+    ],
+    "competitorMeta": [
+      {
+        "name": "Ask AI",
+        "freeCount": 3,
+        "model": "GPT-5"
+      },
+      {
+        "name": "ChatSmith",
+        "freeCount": 10,
+        "model": "Claude 5"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "questionIndex": 1,
+      "question": "2025年诺贝尔物理学奖授予了谁？",
+      "questionType": "信息问答",
+      "targetFunction": "知识问答",
+      "reviews": [
+        {
+          "answererName": "AIC",
+          "totalScore": 68,
+          "dimensions": {
+            "completeness": {
+              "score": 3,
+              "comment": "内容覆盖表现一般"
+            },
+            "professionalism": {
+              "score": 5,
+              "comment": "专业度表现优秀"
+            },
+            "structure": {
+              "score": 3,
+              "comment": "结构表现一般"
+            },
+            "practicality": {
+              "score": 2,
+              "comment": "实用性存在不足"
+            },
+            "naturalness": {
+              "score": 2,
+              "comment": "语言自然度存在不足"
+            },
+            "interaction": {
+              "score": 0,
+              "comment": "不适用"
+            }
+          },
+          "strengths": [
+            "Professionalism"
+          ],
+          "weaknesses": [
+            "Practicality",
+            "Naturalness",
+            "Interaction"
+          ],
+          "shortSummary": "AIC 的回答整体良好（68分）。优势：Professionalism。可改进：Practicality、Naturalness。"
+        },
+        {
+          "answererName": "Ask AI",
+          "totalScore": 72,
+          "dimensions": {
+            "completeness": {
+              "score": 3,
+              "comment": "内容覆盖表现一般"
+            },
+            "professionalism": {
+              "score": 5,
+              "comment": "专业度表现优秀"
+            },
+            "structure": {
+              "score": 3,
+              "comment": "结构表现一般"
+            },
+            "practicality": {
+              "score": 2,
+              "comment": "实用性存在不足"
+            },
+            "naturalness": {
+              "score": 4,
+              "comment": "语言自然度表现良好"
+            },
+            "interaction": {
+              "score": 0,
+              "comment": "不适用"
+            }
+          },
+          "strengths": [
+            "Professionalism",
+            "Naturalness"
+          ],
+          "weaknesses": [
+            "Practicality",
+            "Interaction"
+          ],
+          "shortSummary": "Ask AI 的回答整体良好（72分）。优势：Professionalism、Naturalness。可改进：Practicality、Interaction。"
+        },
+        {
+          "answererName": "ChatSmith",
+          "totalScore": 62,
+          "dimensions": {
+            "completeness": {
+              "score": 2,
+              "comment": "内容覆盖存在不足"
+            },
+            "professionalism": {
+              "score": 5,
+              "comment": "专业度表现优秀"
+            },
+            "structure": {
+              "score": 3,
+              "comment": "结构表现一般"
+            },
+            "practicality": {
+              "score": 2,
+              "comment": "实用性存在不足"
+            },
+            "naturalness": {
+              "score": 2,
+              "comment": "语言自然度存在不足"
+            },
+            "interaction": {
+              "score": 0,
+              "comment": "不适用"
+            }
+          },
+          "strengths": [
+            "Professionalism"
+          ],
+          "weaknesses": [
+            "Content Completeness",
+            "Practicality",
+            "Naturalness",
+            "Interaction"
+          ],
+          "shortSummary": "ChatSmith 的回答整体一般（62分）。优势：Professionalism。可改进：Content Completeness、Practicality。"
+        }
+      ],
+      "comparison": {
+        "ranking": [
+          {
+            "answererName": "Ask AI",
+            "rank": 1,
+            "totalScore": 72
+          },
+          {
+            "answererName": "AIC",
+            "rank": 2,
+            "totalScore": 68
+          },
+          {
+            "answererName": "ChatSmith",
+            "rank": 3,
+            "totalScore": 62
+          }
+        ],
+        "scoreTable": [
+          {
+            "answererName": "AIC",
+            "totalScore": 68,
+            "dimensions": {
+              "completeness": 3,
+              "professionalism": 5,
+              "structure": 3,
+              "practicality": 2,
+              "naturalness": 2,
+              "interaction": 0
+            }
+          },
+          {
+            "answererName": "Ask AI",
+            "totalScore": 72,
+            "dimensions": {
+              "completeness": 3,
+              "professionalism": 5,
+              "structure": 3,
+              "practicality": 2,
+              "naturalness": 4,
+              "interaction": 0
+            }
+          },
+          {
+            "answererName": "ChatSmith",
+            "totalScore": 62,
+            "dimensions": {
+              "completeness": 2,
+              "professionalism": 5,
+              "structure": 3,
+              "practicality": 2,
+              "naturalness": 2,
+              "interaction": 0
+            }
+          }
+        ],
+        "dimensionComparison": [
+          {
+            "dimension": "completeness",
+            "label": "Content Completeness",
+            "scores": {
+              "AIC": 3,
+              "Ask AI": 3,
+              "ChatSmith": 2
+            },
+            "leader": "AIC"
+          },
+          {
+            "dimension": "professionalism",
+            "label": "Professionalism",
+            "scores": {
+              "AIC": 5,
+              "Ask AI": 5,
+              "ChatSmith": 5
+            },
+            "leader": "AIC"
+          },
+          {
+            "dimension": "structure",
+            "label": "Structure & Clarity",
+            "scores": {
+              "AIC": 3,
+              "Ask AI": 3,
+              "ChatSmith": 3
+            },
+            "leader": "AIC"
+          },
+          {
+            "dimension": "practicality",
+            "label": "Practicality",
+            "scores": {
+              "AIC": 2,
+              "Ask AI": 2,
+              "ChatSmith": 2
+            },
+            "leader": "AIC"
+          },
+          {
+            "dimension": "naturalness",
+            "label": "Naturalness",
+            "scores": {
+              "AIC": 2,
+              "Ask AI": 4,
+              "ChatSmith": 2
+            },
+            "leader": "Ask AI"
+          },
+          {
+            "dimension": "interaction",
+            "label": "Interaction",
+            "scores": {
+              "AIC": 0,
+              "Ask AI": 0,
+              "ChatSmith": 0
+            },
+            "leader": "—"
+          }
+        ],
+        "keyDifferences": [
+          {
+            "dimension": "naturalness",
+            "label": "Naturalness",
+            "leader": "Ask AI",
+            "gap": 2,
+            "description": "Ask AI 在Naturalness上略有优势（差距 2 分）"
+          }
+        ],
+        "analysisSummary": "综合得分最高的是 Ask AI（72 分）。AIC 在 4 个维度上得分最高；Ask AI 在 1 个维度上得分最高。Ask AI 在Naturalness上略有优势（差距 2 分）。"
+      },
+      "judgment": {
+        "winner": "Ask AI",
+        "result": "Competitor Better",
+        "confidence": "Medium",
+        "scoreGap": -4,
+        "reasons": [
+          "综合得分：Ask AI 72 分",
+          "维度领先：AIC 在 4 个维度上得分最高",
+          "Ask AI 在Naturalness上略有优势（差距 2 分）",
+          "Ask AI 领先 4 分"
+        ]
+      },
+      "suggestion": {
+        "required": true,
+        "priority": "Medium",
+        "improvementAreas": [
+          "Practicality & Usability",
+          "Language Naturalness",
+          "Content Completeness"
+        ],
+        "actionItems": [
+          "增加可执行的具体步骤，输出可直接使用的格式",
+          "优化语言表达的自然度和流畅性，减少生硬感",
+          "补充关键信息点，确保全面覆盖用户问题的所有方面"
+        ],
+        "summary": "竞品 Ask AI 表现更好（分差 4 分）。建议优先改进：Practicality & Usability、Language Naturalness。"
+      },
+      "factCheck": {
+        "required": "mandatory",
+        "result": "不适用",
+        "confidence": "low",
+        "claims": [],
+        "summary": "未提取到可验证的事实主张。",
+        "checkedAt": "2026-07-04T18:55:43.254Z"
+      }
+    },
+    {
+      "questionIndex": 2,
+      "question": "帮我写一份英文简历，我是软件工程师，有5年经验",
+      "questionType": "创作生成",
+      "targetFunction": "AI写作",
+      "reviews": [
+        {
+          "answererName": "AIC",
+          "totalScore": 48,
+          "dimensions": {
+            "completeness": {
+              "score": 3,
+              "comment": "内容覆盖表现一般"
+            },
+            "professionalism": {
+              "score": 3,
+              "comment": "专业度表现一般"
+            },
+            "structure": {
+              "score": 3,
+              "comment": "结构表现一般"
+            },
+            "practicality": {
+              "score": 2,
+              "comment": "实用性存在不足"
+            },
+            "naturalness": {
+              "score": 2,
+              "comment": "语言自然度存在不足"
+            },
+            "interaction": {
+              "score": 2,
+              "comment": "互动引导存在不足"
+            }
+          },
+          "strengths": [],
+          "weaknesses": [
+            "Practicality",
+            "Naturalness",
+            "Interaction"
+          ],
+          "shortSummary": "AIC 的回答整体一般（48分）。可改进：Practicality、Naturalness。"
+        },
+        {
+          "answererName": "Ask AI",
+          "totalScore": 48,
+          "dimensions": {
+            "completeness": {
+              "score": 3,
+              "comment": "内容覆盖表现一般"
+            },
+            "professionalism": {
+              "score": 3,
+              "comment": "专业度表现一般"
+            },
+            "structure": {
+              "score": 3,
+              "comment": "结构表现一般"
+            },
+            "practicality": {
+              "score": 2,
+              "comment": "实用性存在不足"
+            },
+            "naturalness": {
+              "score": 2,
+              "comment": "语言自然度存在不足"
+            },
+            "interaction": {
+              "score": 2,
+              "comment": "互动引导存在不足"
+            }
+          },
+          "strengths": [],
+          "weaknesses": [
+            "Practicality",
+            "Naturalness",
+            "Interaction"
+          ],
+          "shortSummary": "Ask AI 的回答整体一般（48分）。可改进：Practicality、Naturalness。"
+        },
+        {
+          "answererName": "ChatSmith",
+          "totalScore": 68,
+          "dimensions": {
+            "completeness": {
+              "score": 3,
+              "comment": "内容覆盖表现一般"
+            },
+            "professionalism": {
+              "score": 3,
+              "comment": "专业度表现一般"
+            },
+            "structure": {
+              "score": 3,
+              "comment": "结构表现一般"
+            },
+            "practicality": {
+              "score": 4,
+              "comment": "实用性表现良好"
+            },
+            "naturalness": {
+              "score": 4,
+              "comment": "语言自然度表现良好"
+            },
+            "interaction": {
+              "score": 2,
+              "comment": "互动引导存在不足"
+            }
+          },
+          "strengths": [
+            "Practicality",
+            "Naturalness"
+          ],
+          "weaknesses": [
+            "Interaction"
+          ],
+          "shortSummary": "ChatSmith 的回答整体良好（68分）。优势：Practicality、Naturalness。可改进：Interaction。"
+        }
+      ],
+      "comparison": {
+        "ranking": [
+          {
+            "answererName": "ChatSmith",
+            "rank": 1,
+            "totalScore": 68
+          },
+          {
+            "answererName": "AIC",
+            "rank": 2,
+            "totalScore": 48
+          },
+          {
+            "answererName": "Ask AI",
+            "rank": 3,
+            "totalScore": 48
+          }
+        ],
+        "scoreTable": [
+          {
+            "answererName": "AIC",
+            "totalScore": 48,
+            "dimensions": {
+              "completeness": 3,
+              "professionalism": 3,
+              "structure": 3,
+              "practicality": 2,
+              "naturalness": 2,
+              "interaction": 2
+            }
+          },
+          {
+            "answererName": "Ask AI",
+            "totalScore": 48,
+            "dimensions": {
+              "completeness": 3,
+              "professionalism": 3,
+              "structure": 3,
+              "practicality": 2,
+              "naturalness": 2,
+              "interaction": 2
+            }
+          },
+          {
+            "answererName": "ChatSmith",
+            "totalScore": 68,
+            "dimensions": {
+              "completeness": 3,
+              "professionalism": 3,
+              "structure": 3,
+              "practicality": 4,
+              "naturalness": 4,
+              "interaction": 2
+            }
+          }
+        ],
+        "dimensionComparison": [
+          {
+            "dimension": "completeness",
+            "label": "Content Completeness",
+            "scores": {
+              "AIC": 3,
+              "Ask AI": 3,
+              "ChatSmith": 3
+            },
+            "leader": "AIC"
+          },
+          {
+            "dimension": "professionalism",
+            "label": "Professionalism",
+            "scores": {
+              "AIC": 3,
+              "Ask AI": 3,
+              "ChatSmith": 3
+            },
+            "leader": "AIC"
+          },
+          {
+            "dimension": "structure",
+            "label": "Structure & Clarity",
+            "scores": {
+              "AIC": 3,
+              "Ask AI": 3,
+              "ChatSmith": 3
+            },
+            "leader": "AIC"
+          },
+          {
+            "dimension": "practicality",
+            "label": "Practicality",
+            "scores": {
+              "AIC": 2,
+              "Ask AI": 2,
+              "ChatSmith": 4
+            },
+            "leader": "ChatSmith"
+          },
+          {
+            "dimension": "naturalness",
+            "label": "Naturalness",
+            "scores": {
+              "AIC": 2,
+              "Ask AI": 2,
+              "ChatSmith": 4
+            },
+            "leader": "ChatSmith"
+          },
+          {
+            "dimension": "interaction",
+            "label": "Interaction",
+            "scores": {
+              "AIC": 2,
+              "Ask AI": 2,
+              "ChatSmith": 2
+            },
+            "leader": "AIC"
+          }
+        ],
+        "keyDifferences": [
+          {
+            "dimension": "practicality",
+            "label": "Practicality",
+            "leader": "ChatSmith",
+            "gap": 2,
+            "description": "ChatSmith 在Practicality上略有优势（差距 2 分）"
+          },
+          {
+            "dimension": "naturalness",
+            "label": "Naturalness",
+            "leader": "ChatSmith",
+            "gap": 2,
+            "description": "ChatSmith 在Naturalness上略有优势（差距 2 分）"
+          }
+        ],
+        "analysisSummary": "综合得分最高的是 ChatSmith（68 分）。AIC 在 4 个维度上得分最高；ChatSmith 在 2 个维度上得分最高。ChatSmith 在Practicality上略有优势（差距 2 分）。ChatSmith 在Naturalness上略有优势（差距 2 分）。"
+      },
+      "judgment": {
+        "winner": "ChatSmith",
+        "result": "Competitor Better",
+        "confidence": "High",
+        "scoreGap": -20,
+        "reasons": [
+          "综合得分：ChatSmith 68 分",
+          "维度领先：AIC 在 4 个维度上得分最高",
+          "ChatSmith 在Practicality上略有优势（差距 2 分）",
+          "ChatSmith 领先 20 分"
+        ]
+      },
+      "suggestion": {
+        "required": true,
+        "priority": "High",
+        "improvementAreas": [
+          "Practicality & Usability",
+          "Language Naturalness",
+          "Interaction & Engagement"
+        ],
+        "actionItems": [
+          "增加可执行的具体步骤，输出可直接使用的格式",
+          "优化语言表达的自然度和流畅性，减少生硬感",
+          "增加追问、反馈引导和互动元素，鼓励进一步交流"
+        ],
+        "summary": "竞品 ChatSmith 表现更好（分差 20 分）。建议优先改进：Practicality & Usability、Language Naturalness。"
+      },
+      "factCheck": {
+        "required": "skip",
+        "result": "不适用",
+        "confidence": "low",
+        "claims": [],
+        "summary": "此问题类型无需事实校验。",
+        "checkedAt": null
+      }
+    },
+    {
+      "questionIndex": 3,
+      "question": "翻译这段话成日语：人工智能正在改变我们的生活方式",
+      "questionType": "工具类",
+      "targetFunction": "AI翻译",
+      "reviews": [
+        {
+          "answererName": "AIC",
+          "totalScore": 43,
+          "dimensions": {
+            "completeness": {
+              "score": 2,
+              "comment": "内容覆盖存在不足"
+            },
+            "professionalism": {
+              "score": 3,
+              "comment": "专业度表现一般"
+            },
+            "structure": {
+              "score": 2,
+              "comment": "结构存在不足"
+            },
+            "practicality": {
+              "score": 2,
+              "comment": "实用性存在不足"
+            },
+            "naturalness": {
+              "score": 2,
+              "comment": "语言自然度存在不足"
+            },
+            "interaction": {
+              "score": 0,
+              "comment": "不适用"
+            }
+          },
+          "strengths": [],
+          "weaknesses": [
+            "Content Completeness",
+            "Structure & Clarity",
+            "Practicality",
+            "Naturalness",
+            "Interaction"
+          ],
+          "shortSummary": "AIC 的回答整体较差（43分）。可改进：Content Completeness、Structure & Clarity。"
+        },
+        {
+          "answererName": "Ask AI",
+          "totalScore": 40,
+          "dimensions": {
+            "completeness": {
+              "score": 2,
+              "comment": "内容覆盖存在不足"
+            },
+            "professionalism": {
+              "score": 2,
+              "comment": "专业度存在不足"
+            },
+            "structure": {
+              "score": 2,
+              "comment": "结构存在不足"
+            },
+            "practicality": {
+              "score": 2,
+              "comment": "实用性存在不足"
+            },
+            "naturalness": {
+              "score": 2,
+              "comment": "语言自然度存在不足"
+            },
+            "interaction": {
+              "score": 0,
+              "comment": "不适用"
+            }
+          },
+          "strengths": [],
+          "weaknesses": [
+            "Content Completeness",
+            "Professionalism",
+            "Structure & Clarity",
+            "Practicality",
+            "Naturalness",
+            "Interaction"
+          ],
+          "shortSummary": "Ask AI 的回答整体较差（40分）。可改进：Content Completeness、Professionalism。"
+        }
+      ],
+      "comparison": {
+        "ranking": [
+          {
+            "answererName": "AIC",
+            "rank": 1,
+            "totalScore": 43
+          },
+          {
+            "answererName": "Ask AI",
+            "rank": 2,
+            "totalScore": 40
+          }
+        ],
+        "scoreTable": [
+          {
+            "answererName": "AIC",
+            "totalScore": 43,
+            "dimensions": {
+              "completeness": 2,
+              "professionalism": 3,
+              "structure": 2,
+              "practicality": 2,
+              "naturalness": 2,
+              "interaction": 0
+            }
+          },
+          {
+            "answererName": "Ask AI",
+            "totalScore": 40,
+            "dimensions": {
+              "completeness": 2,
+              "professionalism": 2,
+              "structure": 2,
+              "practicality": 2,
+              "naturalness": 2,
+              "interaction": 0
+            }
+          }
+        ],
+        "dimensionComparison": [
+          {
+            "dimension": "completeness",
+            "label": "Content Completeness",
+            "scores": {
+              "AIC": 2,
+              "Ask AI": 2
+            },
+            "leader": "AIC"
+          },
+          {
+            "dimension": "professionalism",
+            "label": "Professionalism",
+            "scores": {
+              "AIC": 3,
+              "Ask AI": 2
+            },
+            "leader": "AIC"
+          },
+          {
+            "dimension": "structure",
+            "label": "Structure & Clarity",
+            "scores": {
+              "AIC": 2,
+              "Ask AI": 2
+            },
+            "leader": "AIC"
+          },
+          {
+            "dimension": "practicality",
+            "label": "Practicality",
+            "scores": {
+              "AIC": 2,
+              "Ask AI": 2
+            },
+            "leader": "AIC"
+          },
+          {
+            "dimension": "naturalness",
+            "label": "Naturalness",
+            "scores": {
+              "AIC": 2,
+              "Ask AI": 2
+            },
+            "leader": "AIC"
+          },
+          {
+            "dimension": "interaction",
+            "label": "Interaction",
+            "scores": {
+              "AIC": 0,
+              "Ask AI": 0
+            },
+            "leader": "—"
+          }
+        ],
+        "keyDifferences": [],
+        "analysisSummary": "综合得分最高的是 AIC（43 分）。AIC 在 5 个维度上得分最高。"
+      },
+      "judgment": {
+        "winner": "—",
+        "result": "Tie",
+        "confidence": "Low",
+        "scoreGap": 3,
+        "reasons": [
+          "综合得分：AIC 43 分",
+          "维度领先：AIC 在 5 个维度上得分最高",
+          "分差仅 3 分，无明显差异"
+        ]
+      },
+      "suggestion": {
+        "required": true,
+        "priority": "Low",
+        "improvementAreas": [
+          "Content Completeness",
+          "Structure & Clarity",
+          "Practicality & Usability"
+        ],
+        "actionItems": [
+          "补充关键信息点，确保全面覆盖用户问题的所有方面",
+          "采用标题分段和要点摘要，优化信息层次和可读性",
+          "增加可执行的具体步骤，输出可直接使用的格式"
+        ],
+        "summary": "与竞品持平。建议优先改进：Content Completeness、Structure & Clarity。"
+      },
+      "factCheck": {
+        "required": "partial",
+        "result": "不适用",
+        "confidence": "low",
+        "claims": [],
+        "summary": "未提取到可验证的事实主张。",
+        "checkedAt": "2026-07-04T18:55:43.254Z"
+      }
+    }
+  ],
+  "summary": {
+    "overallAssessment": "3 题中 AIC 0 胜 2 负 1 平。",
+    "strengths": [
+      "Professionalism"
+    ],
+    "weaknesses": [
+      "Practicality & Usability",
+      "Language Naturalness",
+      "Content Completeness"
+    ],
+    "competitorInsights": {},
+    "winLossSummary": {
+      "aicWins": 0,
+      "competitorWins": 2,
+      "ties": 1,
+      "details": ""
+    },
+    "recommendations": [
+      "增加可执行的具体步骤，输出可直接使用的格式",
+      "优化语言表达的自然度和流畅性，减少生硬感",
+      "补充关键信息点，确保全面覆盖用户问题的所有方面"
+    ]
+  }
+}
